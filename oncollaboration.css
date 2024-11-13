@@ -59,13 +59,13 @@
     --font-weight-black: 900;
 
 
-    --font-size-xxxl: 5.3125rem;  /* 85px / 16px */
-    --font-size-xxl: 4.6875rem;   /* 75px / 16px */
-    --font-size-xl: 2.1875rem;    /* 35px / 16px */
-    --font-size-l: 1.5rem;        /* 24px / 16px */
-    --font-size-m-l: 1.25rem;     /* 20px / 16px */
-    --font-size-m: 1.125rem;      /* 18px / 16px */
-    --font-size-s: 0.875rem;      /* 14px / 16px */
+    --font-size-xxxl: 85px;
+    --font-size-xxl: 75px;
+    --font-size-xl: 35px;
+    --font-size-l: 24px;
+    --font-size-m-l: 20px;
+    --font-size-m: 18px;
+    --font-size-s: 14px;
    /* px--> em*/
 
     /*forms*/
@@ -73,7 +73,6 @@
     --form-input:;
     --form-radio:;
     --form-checkbox:;
-    --form-search:;
     --form-range:;
     --form-button:;
     */
@@ -81,8 +80,8 @@
 
 /*Typografie*/
 h1{
- font-size: var(--font-size-xxxl);
- font-family: var(--primary-font);
+ font-size: var(--font-size-xxl);
+ font-family: var(  --secondary-font);
 }
 
 h2{
@@ -120,12 +119,20 @@ ol li{
    font-family: var(--primary-font);
 }
 
-table{
-   font-size: var(--font-size-s);
-   font-family: var(--primary-font);
+table {
+   border: var(--black) solid;
+}
+
+table tr{
+   border: var(--black) solid 0.75px;
+}
+
+thead tr th{
+   font-size: var(--font-size-m);
+   font-family: var( --secondary-font);
 }
 
 tbody tr td{
    font-size: var(--font-size-s);
-   font-family: var(--primary-font);
+   font-family: var( --secondary-font);
 }
