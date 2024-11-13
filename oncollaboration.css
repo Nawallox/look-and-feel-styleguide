@@ -123,10 +123,6 @@ table {
    border: var(--black) solid;
 }
 
-table tr{
-   border: var(--black) solid 0.75px;
-}
-
 thead tr th{
    font-size: var(--font-size-m);
    font-family: var( --secondary-font);
