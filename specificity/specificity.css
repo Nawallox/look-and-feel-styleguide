@@ -29,3 +29,5 @@ the green, making the h2 text pink.*/
 }
 
 /*The Id selctor overrules the class this is why #heading is yellow*/
+
+/*Information source on specificity topic-> https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity */
