@@ -10,7 +10,7 @@ This project is licensed under the terms of the [MIT license](./LICENSE).
 
 ## colors
 
-## typografy
+## typography
 
 ## forms
 
@@ -32,9 +32,10 @@ for font-sizes ude: rem or ch.
 for more information on this topic: https://www.freecodecamp.org/news/css-units-when-to-use-each-one/#:~:text=The%20main%20reason%20why%20using,the%20size%20of%20the%20viewport.
 
 
-
-
-/*
+css nesting, cascade, and specificity
 Css class specificity is about what classes overrule eachother. 
 css reads the file from top to bottom, if it reads 2 of the same then the last one overrules the first
-*/
+
+more information on this topic: https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity 
+
+

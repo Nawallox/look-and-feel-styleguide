@@ -1,0 +1,31 @@
+h2 {
+    color: purple;
+}
+
+/*H2 gets a purple color because with the h2 selector in css you target the h2 element in the html file
+and by adding a color to the css h2 selector your give the target element this color.*/
+
+.green {
+    color: green;
+}
+
+/*.green is also an h2 element but this element is given the classname green. The computer reads
+a css file from top to bottom so if u have multiple of the same valued selectors you will see that the
+last one overrules the first one(s). And because we gave the last one a classname which we selected in 
+the css you'll see only the one with this classname will get the green color.*/
+
+.heading-medium {
+    color: pink;
+}
+
+/*What happens here is as i explained previously, when u have multiple of the same valued
+selectors, the last one will overrule the ones above. Simply because the computer reads the file from 
+top to bottom. Here we see tho that only the elements with the classname heading-medium will
+become pink. and because .green is above . heading medium, you see that heading-medium overrules
+the green, making the h2 text pink.*/
+
+#heading {
+    color: yellow;
+}
+
+/*The Id selctor overrules the class this is why #heading is yellow*/
