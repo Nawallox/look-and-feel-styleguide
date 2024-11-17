@@ -80,6 +80,7 @@
 
 body {
    background-color: #B47F92;
+   color: #fcf9f9;
 }
 
 /*Color*/
@@ -90,7 +91,7 @@ text-align: #fcf9f9;
 
 .kleur2 {
    background-color: #1F000B;
-   color: #666666;
+   text-align: #fcf9f9;
 }
 
 .kleur3 {
