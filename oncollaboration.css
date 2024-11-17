@@ -78,6 +78,10 @@
     */
 }
 
+.kleur2 {
+background-color: #333333;
+}
+
 /*Typografie*/
 h1{
  font-size: var(--font-size-xxl);
@@ -131,4 +135,10 @@ thead tr th{
 tbody tr td{
    font-size: var(--font-size-s);
    font-family: var( --secondary-font);
+}
+
+
+
+button {
+   background-color: var(--button-active);
 }
