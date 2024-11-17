@@ -50,8 +50,8 @@
 
     /*typografy*/
 
-    --primary-font: "Inter", serif; 
-    --secondary-font: "Jost", serif;
+    --primary-font: "inter", serif; 
+    --secondary-font: "jost", serif;
 
     --font-weight-light: 200;
     --font-weight-regular: 400;
@@ -60,13 +60,13 @@
 
 
     --font-size-xxxl: 85px;
-    --font-size-xxl: 75px;
+    --font-size-xxl: 65px;
     --font-size-xl: 35px;
     --font-size-l: 24px;
     --font-size-m-l: 20px;
     --font-size-m: 18px;
-    --font-size-s: 14px;
-   /* px--> em*/
+    --font-size-s: 16px;
+   /* px --> em*/
 
     /*forms*/
 /*
@@ -85,7 +85,7 @@ background-color: #333333;
 /*Typografie*/
 h1{
  font-size: var(--font-size-xxl);
- font-family: var(  --secondary-font);
+ font-family: var(--secondary-font);
 }
 
 h2{
