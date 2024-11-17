@@ -79,32 +79,33 @@
 }
 
 body {
-   background-color: #B47F92;
-   color: #fcf9f9;
+   background-color: #f2d1dd;
 }
 
 /*Color*/
 .kleur1 {
-background-color:  #6a0025;
-text-align: #fcf9f9;
+background-color:#6a0025;
+color: #fff;
 }
 
 .kleur2 {
    background-color: #1F000B;
-   text-align: #fcf9f9;
+   color: #fff;
 }
 
 .kleur3 {
    background-color: #f4eaee;
-   color: #666666;
+   color: #000;
 }
 
 .kleur4 {
    background-color: #fff;
+   color: #000;
 }
 
 .kleur5 {
    background-color: #000;
+   color: #fff;
 }
 
 /*Typografie*/
