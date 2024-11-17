@@ -78,8 +78,14 @@
     */
 }
 
+.kleur1 {
+background-color:  #6a0025;
+text-align: #fcf9f9;
+}
+
 .kleur2 {
-background-color: #333333;
+   background-color: #666666;
+   color: #666666;
 }
 
 /*Typografie*/
