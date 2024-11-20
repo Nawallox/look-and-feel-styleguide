@@ -168,3 +168,7 @@ tbody tr td{
 button {
    background-color: var(--button-active);
 }
+
+.checkbox {
+   accent-color: #6a0025;
+}
