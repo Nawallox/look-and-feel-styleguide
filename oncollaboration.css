@@ -85,7 +85,7 @@ textarea {
 input[type="text"]::placeholder,
 input[type="password"]::placeholder,
 textarea::placeholder {
-  color: var(--filter--text-normal);
+  color: var(--filter--text-norma);
 }
 
 input[type="text"]:focus,
@@ -207,3 +207,24 @@ button {
 .checkbox-1 {
    accent-color: #6a0025;
 }
+
+.checkbox-2 {
+   accent-color: #6a0025;
+}
+
+.checkbox-3 {
+   accent-color: #6a0025;
+}
+
+.radio-1 {
+   accent-color: #6a0025;
+}
+
+.radio-2 {
+   accent-color: #6a0025;
+}
+
+.radio-3 {
+   accent-color: #6a0025;
+}
+
