@@ -95,8 +95,6 @@ textarea:focus {
   border: 1px solid var(--button-hover);
   background-color: var(--secondary-color-light);
 }
-<<<<<<< HEAD
-=======
 range{
     display: block;
     position: relative;
@@ -138,7 +136,6 @@ range{
    margin: 2px 1px;
    border-radius: 12px;
 }
->>>>>>> c35c5c771a8dcee79c94e1478336aa67d721b847
 
 
 }
