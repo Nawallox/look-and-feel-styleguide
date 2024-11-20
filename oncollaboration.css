@@ -34,7 +34,7 @@
     --filter-active: #6A0025;
     --filter-active-hover: #4A0019;
 
-    --button-normal: #F0E5E9;
+    --button-normal: #F0E5E9 ;
     --button--text-normal: #1F000B;
     --button-hover: #6A0025;
     --button-text-active: #fff;
@@ -246,7 +246,7 @@ tbody tr td{
   }
   
 
-button {
+.button,.kleur {
    background-color: var(--button-active);
 }
 
