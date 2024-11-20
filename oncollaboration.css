@@ -2,14 +2,14 @@
    worden door jullie projecten */
    @font-face{
     font-family: "inter";
-    src: url(/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf),
-    url(/fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+    src: url(./fonts/Inter/Inter-VariableFont_opsz\,wght.ttf),
+    url(./fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
 }
 
  @font-face {
     font-family: "jost" ;
-    src: url(/fonts/Jost/Jost-VariableFont_wght.ttf),
-    url(/fonts/Jost/Jost-Italic-VariableFont_wght.ttf);
+    src: url(./fonts/Jost/Jost-VariableFont_wght.ttf),
+    url(./fonts/Jost/Jost-Italic-VariableFont_wght.ttf);
  }
 
 
@@ -34,7 +34,7 @@
     --filter-active: #6A0025;
     --filter-active-hover: #4A0019;
 
-    --button-normal: #F0E5E9;
+    --button-normal: #F0E5E9 ;
     --button--text-normal: #1F000B;
     --button-hover: #6A0025;
     --button-text-active: #fff;
@@ -71,6 +71,8 @@
 /* Forms */
 input[type="text"],
 input[type="password"],
+input[type="tel"],
+input[type="search"],
 textarea {
   width: 100%;
   padding: 12px 16px;
@@ -90,12 +92,62 @@ textarea::placeholder {
 
 input[type="text"]:focus,
 input[type="password"]:focus,
+input[type="tel"]:focus,
+input[type="search":focus],
 textarea:focus {
   outline: none;
   border: 1px solid var(--button-hover);
   background-color: var(--secondary-color-light);
 }
+range{
+    display: block;
+    position: relative;
+    align-items: center;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    accent-color: maroon;
+  }
+  checkbox{
+   display: block;
+   position: relative;
+   align-items: center;
+   padding-left: 35px;
+   margin-bottom: 12px;
+   cursor: pointer;
+   font-size: 22px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   accent-color:#6A0025 ;
+ }
+ button{
+   background-color: var(--button-active);
+   color: #6A0025;
+   border: none;
+   padding: 10px;
+   font-weight: 700;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 2px 1px;
+   border-radius: 12px;
+}
 
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+input[type="tel"::placeholder],
+input[type="search"::placeholder],
+textarea::placeholder {
+  color: var(--filter--text-normal);
+}
 
 }
 
@@ -199,10 +251,6 @@ tbody tr td{
     accent-color: maroon;
   }
   
-
-button {
-   background-color: var(--button-active);
-}
 
 .checkbox-1 {
    accent-color: #6a0025;
