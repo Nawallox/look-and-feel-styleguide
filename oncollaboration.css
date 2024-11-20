@@ -68,14 +68,35 @@
     --font-size-s: 16px;
    /* px --> em*/
 
-    /*forms*/
-/*
-    --form-input:;
-    --form-radio:;
-    --form-checkbox:;
-    --form-range:;
-    --form-button:;
-    */
+/* Forms */
+input[type="text"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: var(--font-size-s);
+  font-family: var(--primary-font);
+  border: 1px solid var(--button-active);
+  border-radius: 4px;
+  background-color: var(--button-normal);
+  color: var(--text);
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+textarea::placeholder {
+  color: var(--filter--text-normal);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid var(--button-hover);
+  background-color: var(--secondary-color-light);
+}
+
+
 }
 
 body {
@@ -163,12 +184,29 @@ tbody tr td{
    font-family: var( --secondary-font);
 }
 
-
+.range {
+    display: block;
+    position: relative;
+    align-items: center;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    accent-color: maroon;
+  }
+  
 
 button {
    background-color: var(--button-active);
 }
+<<<<<<< HEAD
 
 .checkbox {
    accent-color: #6a0025;
 }
+=======
+>>>>>>> a6d8f230d4e1b2803b1227527e3958b017e53312
