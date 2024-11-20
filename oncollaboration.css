@@ -93,6 +93,8 @@ textarea::placeholder {
 
 input[type="text"]:focus,
 input[type="password"]:focus,
+input[type="tel"]:focus,
+input[type="search":focus],
 textarea:focus {
   outline: none;
   border: 1px solid var(--button-hover);
