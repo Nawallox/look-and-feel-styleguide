@@ -269,10 +269,11 @@ button {
    accent-color: #6a0025;
 }
 
-input:focus {
-   background-color: #6a0025;
+
+.input-search:focus {
+   background-color: #6A0025;
 }
 
-.search {
-   color: #6A0025;
+.input-text:focus {
+   background-color: #6A0025;
 }
