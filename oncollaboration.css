@@ -1,15 +1,15 @@
 /* Schrijf hier de verschillende stijlen, die gedeeld gaan
    worden door jullie projecten */
    @font-face{
-    font-family: "inter";
-    src: url(/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf),
-    url(/fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+      font-family: "inter";
+      src: url(./assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf),
+      url(./assets/fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
 }
 
  @font-face {
     font-family: "jost" ;
-    src: url(/fonts/Jost/Jost-VariableFont_wght.ttf),
-    url(/fonts/Jost/Jost-Italic-VariableFont_wght.ttf);
+    src: url(./assets/fonts/Jost/Jost-VariableFont_wght.ttf),
+    url(./assets/fonts/Jost/Jost-Italic-VariableFont_wght.ttf);
  }
 
 
