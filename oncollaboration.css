@@ -53,7 +53,7 @@
     --primary-font: "inter", serif; 
     --secondary-font: "jost", serif;
 
-    --font-weight-light: 350;
+    --font-weight-light: 300;
     --font-weight-regular: 400;
     --font-weight-bold: 700;
     --font-weight-black: 900;
@@ -77,6 +77,14 @@
        /*padding*/
    
        --button-padding: .6rem;
+
+   /*transitions*/
+   
+   --button-ease-in: 2s;
+   --button-ease-out: 2s;
+   --button-ease-in-out:2s;
+
+       
 
 /* Forms */
 input[type="text"],
