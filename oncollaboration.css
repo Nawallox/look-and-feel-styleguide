@@ -68,6 +68,16 @@
     --font-size-s: 16px;
    /* px --> em*/
 
+       /*border*/
+       --border-radius: 10px;
+       --border-right: 1px solid #000;
+   
+       --box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+   
+       /*padding*/
+   
+       --button-padding: .6rem;
+
 /* Forms */
 input[type="text"],
 input[type="search"],
